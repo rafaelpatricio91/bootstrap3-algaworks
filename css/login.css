@@ -8,8 +8,21 @@ body
 .login-form
 {
 	margin-top: 50vh;
+	padding: 20px 30px; /*afasta um pouco os elementos das bordas do form*/
+	color: #FFF;
 	height: 300px;
-	background-color: red;
+	background-color: rgba(0,0,0,.9);
 
 	transform: translateY(-50%);
+}
+
+.login-form h1
+{
+	margin: 0 0 5px;
+}
+
+.login-form h2
+{
+	margin: 0 0 30px;
+	font-size: 1em;
 }
